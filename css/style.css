@@ -1,0 +1,90 @@
+.container {
+  position: relative;
+  width: 480px;
+  height: 320px;
+  overflow: hidden;
+}
+
+.c1{
+	background-color: lightgreen;
+	padding-left: 0;
+	padding-right: 0;
+	/*position: absolute;*/
+	top: 0;
+  	left: 0;
+}
+
+
+
+
+	
+.container {
+  position: relative;
+  width: 480px;
+  height: 320px;
+  overflow: hidden;
+}
+
+
+
+.c2{
+	background-color: pink;
+	padding-left: 0;
+	padding-right: 0;
+}
+.col-xs-12{
+
+}
+
+.txt1{
+	color: white;
+	text-align: center;
+	padding-top: 120px;
+}
+
+/* [1] The container */
+.c1 {
+   /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.c1 img {
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.c1:hover img {
+  transform: scale(1.1);
+}
+
+.c2 {
+   /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+
+/* [3] Finally, transforming the image when container gets hovered */
+
+
+.c2 img {
+  transform-origin: 50% 65%;
+  transition: transform 5s, filter .5s ease-in-out;
+  /*filter: brightness(150%);*/
+}
+
+/* The Transformation */
+.c2:hover img {
+  filter: brightness(100%);
+  transform: scale(1.1);
+}
+
+.txtonimg{
+	position: absolute;
+	top: 100px;
+	left: 25%;
+	text-align: center;
+
+}
+
